@@ -23242,7 +23242,7 @@ declare class HyperlinkTextDestinations {
    * @param destination The text or insertion point location that the hyperlink points to.
    * @param withProperties Initial values for properties of the new HyperlinkTextDestination
    */
-  add(destination: Text, withProperties?: object): HyperlinkTextDestination
+  add(destination: Text, withProperties: object): HyperlinkTextDestination
 
   /**
    * Returns any HyperlinkTextDestination in the collection.
@@ -23909,7 +23909,7 @@ declare class HyperlinkURLDestinations {
    * @param destination The URL that the hyperlink points to.
    * @param withProperties Initial values for properties of the new HyperlinkURLDestination
    */
-  add(destination: string, withProperties: object): HyperlinkURLDestination
+  add(destination: string, withProperties?: object): HyperlinkURLDestination
 
   /**
    * Returns any HyperlinkURLDestination in the collection.
