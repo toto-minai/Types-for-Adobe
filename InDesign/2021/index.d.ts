@@ -23033,7 +23033,7 @@ declare class HyperlinkTextSources {
    * @param source The text or insertion point to hyperlink.
    * @param withProperties Initial values for properties of the new HyperlinkTextSource
    */
-  add(source: Text, withProperties: object): HyperlinkTextSource
+  add(source: Text, withProperties?: object): HyperlinkTextSource
 
   /**
    * Returns any HyperlinkTextSource in the collection.
@@ -23242,7 +23242,7 @@ declare class HyperlinkTextDestinations {
    * @param destination The text or insertion point location that the hyperlink points to.
    * @param withProperties Initial values for properties of the new HyperlinkTextDestination
    */
-  add(destination: Text, withProperties: object): HyperlinkTextDestination
+  add(destination: Text, withProperties?: object): HyperlinkTextDestination
 
   /**
    * Returns any HyperlinkTextDestination in the collection.
