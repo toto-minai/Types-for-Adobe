@@ -72761,7 +72761,7 @@ declare class Paragraphs {
   /**
    * Returns every Paragraph in the collection.
    */
-  everyItem(): Paragraph[]
+  everyItem(): Paragraph
 
   /**
    * Returns the first Paragraph in the collection.
