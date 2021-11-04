@@ -22404,7 +22404,7 @@ declare class Hyperlinks {
   /**
    * Returns every Hyperlink in the collection.
    */
-  everyItem(): Hyperlink[]
+  everyItem(): Hyperlink
 
   /**
    * Returns the first Hyperlink in the collection.
@@ -23048,7 +23048,7 @@ declare class HyperlinkTextSources {
   /**
    * Returns every HyperlinkTextSource in the collection.
    */
-  everyItem(): HyperlinkTextSource[]
+  everyItem(): HyperlinkTextSource
 
   /**
    * Returns the first HyperlinkTextSource in the collection.
@@ -23924,7 +23924,7 @@ declare class HyperlinkURLDestinations {
   /**
    * Returns every HyperlinkURLDestination in the collection.
    */
-  everyItem(): HyperlinkURLDestination[]
+  everyItem(): HyperlinkURLDestination
 
   /**
    * Returns the first HyperlinkURLDestination in the collection.
